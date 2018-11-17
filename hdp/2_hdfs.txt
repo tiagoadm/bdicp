@@ -1,0 +1,8 @@
+ssh maria_dev@192.168.145.145 -p 2222
+
+hadoop fs -copyFromLocal /home/maria_dev/movielens/movies.csv /home/maria_dev/movielens/movies/
+hadoop fs -copyFromLocal /home/maria_dev/movielens/tags.csv /home/maria_dev/movielens/tags/
+hadoop fs -copyFromLocal /home/maria_dev/movielens/genome-tags.csv /home/maria_dev/movielens/genome-tags/
+hadoop fs -copyFromLocal /home/maria_dev/movielens/genome-scores.csv /home/maria_dev/movielens/genome-scores/
+hadoop fs -copyFromLocal /home/maria_dev/movielens/ratings.csv /home/maria_dev/movielens/ratings/
+hadoop fs -copyFromLocal /home/maria_dev/movielens/links.csv /home/maria_dev/movielens/links/

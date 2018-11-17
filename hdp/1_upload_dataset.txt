@@ -1,0 +1,3 @@
+utilizar o WinSCP para transferir os ficheiros
+
+colocar em /home/maria_dev/movielens
